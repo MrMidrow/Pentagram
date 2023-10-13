@@ -16,6 +16,7 @@ module.exports = ({ mode } = { mode: "production" }) => {
       port: 3000,
       static: ["./public"],
       open: true,
+      liveReload: true
     },
     resolve: {
       extensions: ['.js', '.jsx', '.json']
